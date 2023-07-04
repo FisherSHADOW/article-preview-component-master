@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #49556b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M369,493H711a15,15,0,0,1,15,15v64.23a15,15,0,0,1-15,15H369a15,15,0,0,1-15-15V508A15,15,0,0,1,369,493Z"/>
+  <path id="Triangle_1" data-name="Triangle 1" class="cls-1" d="M540,608.25L515.469,580.5h49.062Z"/>
+</svg>

@@ -17,7 +17,7 @@
     article{
         min-width: 360px;
         width: 360px;
-        height: 600px;
+        height: 578px;
         border-radius: 15px;
         box-shadow: 1px 1px 45px rgba(0, 0, 0, 0.603);
         background-color: white;
@@ -81,14 +81,14 @@
     .share__btn__Box{
         background-color: var(--Light-Grayish-Blue);
         border-radius: 50%;
-        width: 36px;
-        height: 36px;
+        width: 40px;
+        height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 30px;
+        text-align: center;
         position: absolute;
-        left: 16.5rem;
+        translate: 290px -137px;
     }
     .share__btn__Box:hover{
         background-color: var(--Grayish-Blue)
@@ -141,3 +141,112 @@
     .icon__color{
         color: var(--Very-Dark-Grayish-Blue);
     }
+    .lg-icon-box{
+        display: none;
+    }
+    .lg-icon-box{
+        display: none;
+    }
+    .lg__icon__container{
+        display: none;
+    }
+    .lg__pop__text{
+        display: none;
+        
+    }
+    @media (min-width: 1000px) {
+        body {
+          background-color: lightgreen;
+        }
+        article{
+            width: 900px;
+            height:350px;
+            display: flex;
+        }
+        .img__container{
+            width: 400px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 15px;
+        }
+        .background{
+            object-fit: cover;
+            width: auto;
+            height: auto;
+        }
+        .title__container{
+            display: flex;
+            flex-direction: column;
+        }
+        .title{
+            width: 400px;
+        }
+
+        .sub__title{
+            width: 400px;
+        }
+        .share__icon__Box {
+            display: none;
+        }
+        .share__btn__Box{
+            position: absolute;
+            translate: 810px 290px;
+
+        }
+        .lg-icon-box{
+            display: block;
+            position: absolute;
+            width: 700px;
+            height: auto;
+            translate: 480px -120px;
+        }
+        .lg__icon__container{
+            display: flex;
+            gap: 10px;
+            translate: 30px 215px;
+        }
+        .lg__pop__text{
+            display: block;
+            font-family: var(--font-family1);
+            font-size: 20px;
+            color: var(--Grayish-Blue);
+            letter-spacing: 5px;
+            position: absolute;
+            translate: 720px 198px ;
+            
+        }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      }
