@@ -6,6 +6,7 @@
     --Light-Grayish-Blue: hsl(210, 46%, 95%);
     --font-family1: 'Manrope', sans-serif;  /* font weights => 500, 700  */
     }
+    /* styles for below 1000px screen */
     body{
         min-height: 100vh;
         min-width: 360px;        display: flex;
@@ -22,7 +23,6 @@
         box-shadow: 1px 1px 45px rgba(0, 0, 0, 0.603);
         background-color: white;
     }
-
     .img__container{
         width: 100%;
         height: 14rem;
@@ -56,7 +56,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-
     }
     .avatar{
         width: 50px;
@@ -89,6 +88,8 @@
         text-align: center;
         position: absolute;
         translate: 290px -137px;
+        cursor: pointer;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.404);
     }
     .share__btn__Box:hover{
         background-color: var(--Grayish-Blue)
@@ -110,24 +111,25 @@
         display: block;
         display: flex;
         flex-direction: row;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-        
-        
+        visibility: hidden;    
     }
     .share__icon__Box p{
         font-family: var(--font-family1);
         font-size: 20px;
         color: var(--Grayish-Blue);
         letter-spacing: 5px;
-        margin: 25px;
-
+        translate: -40px 0;
     }
     .icon__container{
         display: flex;
         gap: 15px;
         justify-content: center;
-        margin-left: -10px ;
+        translate: -25px -2px;
+    }
+    .icon__container i{
+        cursor: pointer;
     }
     .list__box{
         background-color: var(--Light-Grayish-Blue);
@@ -152,12 +154,10 @@
     }
     .lg__pop__text{
         display: none;
-        
     }
+    /* styles for large screen  */
     @media (min-width: 1000px) {
-        body {
-          background-color: lightgreen;
-        }
+   
         article{
             width: 900px;
             height:350px;
@@ -185,7 +185,6 @@
         .title{
             width: 400px;
         }
-
         .sub__title{
             width: 400px;
         }
@@ -195,7 +194,8 @@
         .share__btn__Box{
             position: absolute;
             translate: 810px 290px;
-
+            cursor: pointer;
+            z-index: 1000;
         }
         .lg-icon-box{
             display: block;
@@ -203,11 +203,21 @@
             width: 700px;
             height: auto;
             translate: 480px -120px;
+            display: flex;
+            flex-direction: row;
+            visibility: hidden;            
         }
         .lg__icon__container{
+            width: 100px;
+            height: 30px;
             display: flex;
-            gap: 10px;
-            translate: 30px 215px;
+            flex-direction: row;
+            position: relative;
+            top: 215px;
+            left: 32px;
+            gap: 0 7px;
+            visibility: hidden;
+            cursor: pointer;
         }
         .lg__pop__text{
             display: block;
@@ -217,9 +227,8 @@
             letter-spacing: 5px;
             position: absolute;
             translate: 720px 198px ;
-            
+            visibility: hidden;
         }
-       
 
 
 
