@@ -33,8 +33,8 @@ The only JavaScript you'll need for this challenge is to initiate the share opti
 
 ### Links
 
-- Solution URL: [FisherSHADOW](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-frontend-mentor-challenge-qS74TyAYcs)
-- Live Site URL: [FrontendMentor](https://fishershadow.github.io/base-apparel-coming-soon/)
+- Solution URL: [FisherSHADOW](https://www.frontendmentor.io/solutions/-responsive-article-preview-component-master-kl5YG9j-8b)
+- Live Site URL: [FrontendMentor](https://fishershadow.github.io/article-preview-component-master/)
 
 ## My process
 
