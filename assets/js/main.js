@@ -12,22 +12,22 @@ let bgShow = false //popUp is not visible at large screen
 shareBtn.addEventListener('click', function(){
      if (window.innerWidth<=1000){
       if (show===false ) {
-            shareIconBox.style.visibility='visible'
+            shareIconBox.style.opacity='1'
             show=true
       }else if (show===true){
-            shareIconBox.style.visibility='hidden'
+            shareIconBox.style.opacity='0'
             show =false
          }
     }else{
       if (bgShow===false) {
-         shareIconPopUpImg.style.visibility='visible'
-         shareIconPopUpTxt.style.visibility='visible'
-         shareIconPopUpIcons.style.visibility='visible'
+         shareIconPopUpImg.style.opacity='1'
+         shareIconPopUpTxt.style.opacity='1'
+         shareIconPopUpIcons.style.opacity='1'
          bgShow=true
          }else if (bgShow===true){
-         shareIconPopUpImg.style.visibility='hidden'
-         shareIconPopUpTxt.style.visibility='hidden'
-         shareIconPopUpIcons.style.visibility='hidden'
+         shareIconPopUpImg.style.opacity='0'
+         shareIconPopUpTxt.style.opacity='0'
+         shareIconPopUpIcons.style.opacity='0'
          bgShow=false
          }
         }

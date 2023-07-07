@@ -1,6 +1,6 @@
-# Frontend Mentor - Interactive rating component solution
+# Frontend Mentor - article preview component master
 
-This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,17 +16,20 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### The challenge
 
-Users should be able to:
+Your challenge is to build out this article preview component and get it looking as close to the design as possible.
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Receive an error message when the `form` is submitted if:
-  - The `input` field is empty
-  - The email address is not formatted correctly
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
+
+- Your users should be able to:
+
+  - View the optimal layout for the component depending on their device's screen size
+  - See the social media share links when they click the share icon
 
 ### Screenshot
 
-![](./assets/design/design-model.jpg)
+![](./assets/design/preview%20.jpg)
 
 ### Links
 
@@ -39,7 +42,7 @@ Users should be able to:
 
 - HTML5
 - CSS3 custom properties
-  -java script
+- java script
 
 ## Author
 
